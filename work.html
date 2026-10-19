@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>온디바이스 AI·하드웨어·앱 프로젝트 | 해리코드</title>
+<meta name="description" content="USBot 점자 라벨 프린터 연동, 점자 프린터용 온디바이스 LLM, 청년정책 AI 정책줍줍, 구형폰 AI 도크 ClawDock 등 해리코드가 직접 만든 프로젝트.">
+<meta property="og:title" content="온디바이스 AI·하드웨어·앱 프로젝트 | 해리코드">
+<meta property="og:description" content="USBot 점자 라벨 프린터 연동, 점자 프린터용 온디바이스 LLM, 청년정책 AI 정책줍줍, 구형폰 AI 도크 ClawDock 등 해리코드가 직접 만든 프로젝트.">
+<meta property="og:image" content="https://harry-code.com/img/og.jpg">
+<link rel="canonical" href="https://harry-code.com/work.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://harry-code.com/work.html">
+<meta property="og:site_name" content="해리코드">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="robots" content="index,follow">
+<!-- 검색엔진 소유확인: 네이버 서치어드바이저·구글 서치콘솔에서 받은 한 줄을 아래에 넣기 -->
+<!-- <meta name="naver-site-verification" content="..."> -->
+<!-- <meta name="google-site-verification" content="..."> -->
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+KR:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "Organization",
+ "name": "해리코드",
+ "alternateName": [
+  "HarryCode",
+  "Harry Code"
+ ],
+ "url": "https://harry-code.com/",
+ "logo": "https://harry-code.com/img/brand/mark.svg",
+ "email": "harry@harry-code.com",
+ "foundingDate": "2025-12",
+ "founder": {
+  "@type": "Person",
+  "name": "이한솔"
+ },
+ "description": "온디바이스 AI 기기 제어 모듈 USBot 개발, 온디바이스 AI·펌웨어·앱 개발 및 제품 개발 외주.",
+ "address": {
+  "@type": "PostalAddress",
+  "addressLocality": "용인시 처인구",
+  "addressRegion": "경기도",
+  "addressCountry": "KR"
+ },
+ "knowsAbout": [
+  "온디바이스 AI",
+  "음성 인식",
+  "경량 LLM",
+  "펌웨어",
+  "BLE",
+  "USB",
+  "앱 개발",
+  "접근성",
+  "점자 프린터"
+ ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+
+<header class="hdr">
+  <div class="wrap">
+    <a class="logo" href="index.html" aria-label="해리코드 홈">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#10201C"/><g fill="#2E4A43"><circle cx="12" cy="9" r="2.6"/><circle cx="12" cy="23" r="2.6"/><circle cx="20" cy="23" r="2.6"/></g><g fill="#E9A04A"><circle cx="12" cy="16" r="2.8"/><circle cx="20" cy="9" r="2.8"/><circle cx="20" cy="16" r="2.8"/></g></svg>
+      <b>harrycode</b>
+    </a>
+    <nav class="nav" aria-label="주 메뉴">
+      <a href="index.html">홈</a>
+      <a href="usbot.html">USBot</a>
+      <a href="services.html">개발 의뢰</a>
+      <a href="work.html" aria-current="page">프로젝트</a>
+      <a href="about.html">회사소개</a>
+      <a class="btn btn-p" href="index.html#contact">문의하기</a>
+    </nav>
+    <a class="btn btn-p hdr-cta" href="index.html#contact">문의하기</a>
+    <button class="menu-btn" type="button" aria-label="메뉴 열기" aria-expanded="false"><span></span></button>
+  </div>
+</header>
+
+<main id="main">
+<section class="page-head">
+    <div class="wrap">
+      <span class="eyebrow">Work</span>
+      <h1>직접 만들어 돌려본 것들</h1>
+      <p class="lead">실제 기기나 실제 데이터로 동작을 확인한 프로젝트만 실었습니다. 각 카드의 상태 표시는 지금 어디까지 왔는지를 그대로 적은 것입니다.</p>
+    </div>
+  </section>
+
+  <section class="sec" id="projects">
+    <div class="wrap">
+      <div class="filters rv" role="group" aria-label="분야 필터">
+        <button type="button" data-filter="all" aria-pressed="true">전체</button>
+        <button type="button" data-filter="ai" aria-pressed="false">온디바이스 AI·LLM</button>
+        <button type="button" data-filter="hw" aria-pressed="false">하드웨어·펌웨어</button>
+        <button type="button" data-filter="app" aria-pressed="false">앱·웹</button>
+      </div>
+      <div class="grid2">
+        <article class="pf rv" id="usbot" data-tags="ai hw">
+          <div class="img"><div class="ph"><span>USBot을 꽂은 점자 라벨 프린터 (4:3)</span></div></div>
+          <div class="bd">
+            <div class="meta"><span>해리코드 제품 · 점자 라벨 프린터 제조사 공급</span><span class="num">2026</span></div>
+            <span class="state">시제품 공급 · 양산 준비</span>
+            <h3>USBot × 점자 라벨 프린터</h3>
+            <p>시각장애인이 폰 없이 말로 점자 라벨을 출력하도록 만든 온디바이스 AI 모듈. 제어 펌웨어 검수를 마치고 시제품 20대를 제조사에 공급했습니다. 음성 명령에서 출력까지 6.6초, 연동 시험 통신 프레임 무결성 100%.</p>
+            <div class="tags"><span class="pill">온디바이스 AI</span><span class="pill">펌웨어</span><span class="pill">하드웨어</span><span class="pill">특허 출원</span></div>
+          </div>
+        </article>
+        <article class="pf rv rv-d1" id="llm" data-tags="ai">
+          <div class="img"><div class="ph"><span>온디바이스 LLM 동작 화면 (4:3)</span></div></div>
+          <div class="bd">
+            <div class="meta"><span>개발 용역 · 하드웨어 개발사 의뢰</span><span class="num">2026.07</span></div>
+            <span class="state">납품 완료</span>
+            <h3>점자 프린터용 온디바이스 LLM</h3>
+            <p>점자 프린터에 들어갈 경량 언어 모델을 개발해 납품했습니다. 인터넷 연결 없이 기기 안에서 문장을 이해하고 출력 명령으로 바꾸는 부분입니다.</p>
+            <div class="tags"><span class="pill">경량 LLM</span><span class="pill">온디바이스</span><span class="pill">용역</span></div>
+          </div>
+        </article>
+        <article class="pf rv" id="jubjub" data-tags="ai app">
+          <div class="img"><div class="ph"><span>정책줍줍 화면 · 정책 로드맵 (4:3)</span></div></div>
+          <div class="bd">
+            <div class="meta"><span>자체 서비스 · 명지대 창의적 SW 경진대회 AI응용 부문 출품</span><span class="num">2026</span></div>
+            <span class="state">MVP 완성</span>
+            <h3>정책줍줍 · 청년정책 AI 네비게이터</h3>
+            <p>K-Startup, 온통청년, 기업마당, 복지로 공공 API의 공고 487건을 모아 나이·지역·신분에 맞는 것만 골라줍니다. AI가 공고 원문에 근거해 왜 되는지, 무엇을 준비할지 설명하고, 원문에 없는 내용은 지어내지 않습니다.</p>
+            <div class="tags"><span class="pill">LLM</span><span class="pill">공공 데이터</span><span class="pill">웹앱·PWA</span></div>
+          </div>
+        </article>
+        <article class="pf rv rv-d1" id="clawdock" data-tags="hw app">
+          <div class="img"><img src="img/clawdock-dock.jpg" alt="ClawDock 도크에 꽂힌 스마트폰과 MagSafe 모듈" loading="lazy"></div>
+          <div class="bd">
+            <div class="meta"><span>자체 프로젝트 · 모두의 창업 출품</span><span class="num">2026</span></div>
+            <span class="state">프로토타입</span>
+            <h3>ClawDock · 구형폰 AI 비서 도크</h3>
+            <p>서랍 속 구형 안드로이드폰을 음성비서로 되살리는 도크. 폰 하나로 안 되는 부분은 HID 모듈이 키보드처럼 앱을 직접 조작합니다. 3D 프린팅 케이스와 MagSafe 모듈까지 실물로 만들었습니다.</p>
+            <div class="tags"><span class="pill">하드웨어</span><span class="pill">HID</span><span class="pill">Android</span><span class="pill">3D 프린팅</span></div>
+          </div>
+        </article>
+        <article class="pf rv" id="alert" data-tags="app">
+          <div class="img"><div class="ph"><span>텔레그램 알림 화면 (4:3)</span></div></div>
+          <div class="bd">
+            <div class="meta"><span>내부 도구</span><span class="num">2026</span></div>
+            <span class="state live">운영 중</span>
+            <h3>정부지원사업 맞춤 알림</h3>
+            <p>K-Startup, 기업마당, 복지로 공고를 매일 모아 회사 조건(지역·업력·대표 연령)에 맞는 것만 텔레그램으로 보냅니다. 같은 공고는 두 번 보내지 않습니다.</p>
+            <div class="tags"><span class="pill">데이터 수집</span><span class="pill">조건 매칭</span><span class="pill">자동화</span></div>
+          </div>
+        </article>
+        <article class="pf rv rv-d1" id="clawdock-hid" data-tags="hw">
+          <div class="img"><img src="img/clawdock-magsafe.jpg" alt="스마트폰 뒷면에 붙인 ClawDock MagSafe 모듈" loading="lazy"></div>
+          <div class="bd">
+            <div class="meta"><span>ClawDock 세부 · 하드웨어</span><span class="num">2026</span></div>
+            <span class="state">프로토타입</span>
+            <h3>MagSafe HID 모듈</h3>
+            <p>폰 뒤에 자석으로 붙이면 외출용 AI 비서가 되고, 도크에 꽂으면 집 음성비서가 되는 모듈. 시리·빅스비가 못 하는 서드파티 앱 조작을 키보드 입력 방식으로 풉니다.</p>
+            <div class="tags"><span class="pill">BLE HID</span><span class="pill">기구 설계</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="band ink" aria-label="프로젝트 문의">
+    <div class="wrap">
+      <blockquote class="rv">추측하지 않고 측정합니다. 못 하는 것은 못 한다고 먼저 말씀드립니다.<small>해리코드가 일하는 방식</small></blockquote>
+    </div>
+  </section>
+</main>
+
+<footer class="ftr">
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <a class="logo" href="index.html" aria-label="해리코드 홈">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#10201C"/><g fill="#2E4A43"><circle cx="12" cy="9" r="2.6"/><circle cx="12" cy="23" r="2.6"/><circle cx="20" cy="23" r="2.6"/></g><g fill="#E9A04A"><circle cx="12" cy="16" r="2.8"/><circle cx="20" cy="9" r="2.8"/><circle cx="20" cy="16" r="2.8"/></g></svg>
+      <b>harrycode</b>
+        </a>
+        <p style="margin-top:16px;max-width:380px">말하면 기기가 움직이게. 기기 안에서 도는 AI를 만들고, 제조사의 신제품 개발을 맡습니다.</p>
+      </div>
+      <div class="cols">
+        <div><h4>Menu</h4><ul><li><a href="index.html">홈</a></li><li><a href="usbot.html">USBot</a></li><li><a href="services.html">개발 의뢰</a></li><li><a href="work.html">프로젝트</a></li><li><a href="about.html">회사소개</a></li><li><a href="index.html#contact">문의</a></li></ul></div>
+        <div><h4>Contact</h4><ul><li><a href="mailto:harry@harry-code.com">harry@harry-code.com</a></li><li>경기도 용인시 처인구</li></ul></div>
+      </div>
+    </div>
+    <div class="legal">
+      <span>해리코드 (HarryCode)</span><span>대표 이한솔</span><span>사업자등록번호 321-46-01239</span><span>© 2026 HarryCode. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- 하단 고정 문의 바 -->
+<div class="bar" role="region" aria-label="빠른 문의">
+  <div class="wrap">
+    <span class="msg">AI 기기·제품 개발, 지금 상담하세요</span>
+    <form novalidate>
+      <label class="sr" for="bar-contact">이메일 또는 전화번호</label>
+      <input id="bar-contact" type="text" placeholder="이메일 또는 전화번호" autocomplete="email">
+      <button class="btn btn-p" type="submit">문의하기</button>
+    </form>
+    <span class="ok">접수됐습니다. 1영업일 안에 연락드리겠습니다.</span>
+    <button class="x" type="button" aria-label="문의 바 닫기">×</button>
+  </div>
+</div>
+<a class="fab" href="index.html#contact" aria-label="문의하기로 이동"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4V5z"/></svg></a>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
